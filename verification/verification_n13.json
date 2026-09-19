@@ -1,0 +1,38 @@
+{
+  "status": "PASSED",
+  "max_n": 13,
+  "total_nonisomorphic_trees_checked": 2286,
+  "total_ordered_route_pairs_evaluated_across_trees": 11326491,
+  "nonpath_full_ties_by_n": {
+    "3": {"full_distribution_ties": 0, "individual_threshold_ties": 0},
+    "4": {"full_distribution_ties": 0, "individual_threshold_ties": 0},
+    "5": {"full_distribution_ties": 0, "individual_threshold_ties": 0},
+    "6": {"full_distribution_ties": 0, "individual_threshold_ties": 0},
+    "7": {"full_distribution_ties": 0, "individual_threshold_ties": 0},
+    "8": {"full_distribution_ties": 0, "individual_threshold_ties": 0},
+    "9": {"full_distribution_ties": 0, "individual_threshold_ties": 0},
+    "10": {"full_distribution_ties": 0, "individual_threshold_ties": 0},
+    "11": {"full_distribution_ties": 0, "individual_threshold_ties": 0},
+    "12": {"full_distribution_ties": 0, "individual_threshold_ties": 0},
+    "13": {"full_distribution_ties": 0, "individual_threshold_ties": 0}
+  },
+  "per_n": [
+    {"n": 3, "nonisomorphic_trees": 1, "nonpath_full_ties": 0, "nonpath_individual_threshold_ties": 0, "smallest_nonpath_margin_seen": null, "smallest_nonpath_margin_case": null},
+    {"n": 4, "nonisomorphic_trees": 2, "nonpath_full_ties": 0, "nonpath_individual_threshold_ties": 0, "smallest_nonpath_margin_seen": 1, "smallest_nonpath_margin_case": {"tree_index": 1, "k": 3, "margin": 1}},
+    {"n": 5, "nonisomorphic_trees": 3, "nonpath_full_ties": 0, "nonpath_individual_threshold_ties": 0, "smallest_nonpath_margin_seen": 1, "smallest_nonpath_margin_case": {"tree_index": 1, "k": 4, "margin": 1}},
+    {"n": 6, "nonisomorphic_trees": 6, "nonpath_full_ties": 0, "nonpath_individual_threshold_ties": 0, "smallest_nonpath_margin_seen": 1, "smallest_nonpath_margin_case": {"tree_index": 1, "k": 5, "margin": 1}},
+    {"n": 7, "nonisomorphic_trees": 11, "nonpath_full_ties": 0, "nonpath_individual_threshold_ties": 0, "smallest_nonpath_margin_seen": 1, "smallest_nonpath_margin_case": {"tree_index": 1, "k": 6, "margin": 1}},
+    {"n": 8, "nonisomorphic_trees": 23, "nonpath_full_ties": 0, "nonpath_individual_threshold_ties": 0, "smallest_nonpath_margin_seen": 1, "smallest_nonpath_margin_case": {"tree_index": 1, "k": 7, "margin": 1}},
+    {"n": 9, "nonisomorphic_trees": 47, "nonpath_full_ties": 0, "nonpath_individual_threshold_ties": 0, "smallest_nonpath_margin_seen": 1, "smallest_nonpath_margin_case": {"tree_index": 1, "k": 8, "margin": 1}},
+    {"n": 10, "nonisomorphic_trees": 106, "nonpath_full_ties": 0, "nonpath_individual_threshold_ties": 0, "smallest_nonpath_margin_seen": 1, "smallest_nonpath_margin_case": {"tree_index": 1, "k": 9, "margin": 1}},
+    {"n": 11, "nonisomorphic_trees": 235, "nonpath_full_ties": 0, "nonpath_individual_threshold_ties": 0, "smallest_nonpath_margin_seen": 1, "smallest_nonpath_margin_case": {"tree_index": 1, "k": 10, "margin": 1}},
+    {"n": 12, "nonisomorphic_trees": 551, "nonpath_full_ties": 0, "nonpath_individual_threshold_ties": 0, "smallest_nonpath_margin_seen": 1, "smallest_nonpath_margin_case": {"tree_index": 1, "k": 11, "margin": 1}},
+    {"n": 13, "nonisomorphic_trees": 1301, "nonpath_full_ties": 0, "nonpath_individual_threshold_ties": 0, "smallest_nonpath_margin_seen": 1, "smallest_nonpath_margin_case": {"tree_index": 1, "k": 12, "margin": 1}}
+  ],
+  "networkx_version": "3.6.1",
+  "notes": [
+    "Exact integer enumeration; no random sampling.",
+    "Routes are unordered endpoint pairs, while route pairs are ordered and sampled independently.",
+    "The same route may be selected twice, matching the probability model in the note."
+  ]
+}
