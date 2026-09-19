@@ -4,8 +4,6 @@
 
 The repository contains an **AI-derived proof draft**, not a peer-reviewed proof.
 
-The main writeup is in [`paper/route_overlap_note.pdf`](paper/route_overlap_note.pdf).
-
 ## Proof strategy
 
 The strongest theorem is approached directly through the tail counts
