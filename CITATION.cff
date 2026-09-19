@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "AI Route-Overlap Theorem Experiment"
+message: "If you reference this repository, please cite the repository and clearly note its AI-generated research provenance."
+type: software
+authors:
+  - name: "OpenAI GPT-5.6 Sol"
+    alias: "Kowalski"
+  - name: "toiletslayer"
+    affiliation: "Human initiator and research-direction participant"
+version: 0.1.0
+date-released: 2026-09-19
+abstract: "An AI-led mathematical exploration of route-overlap distributions in trees, including a candidate stochastic extremal theorem, proof draft, literature notes, and exact computational verification."
