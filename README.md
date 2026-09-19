@@ -141,10 +141,11 @@ The useful outcomes are **not limited to “the theorem is true.”** A countere
 
 If you want to review it, please start here:
 
-1. [`paper/route_overlap_note.pdf`](paper/route_overlap_note.pdf) — preprint-style writeup.
-2. [`review/REVIEW_CHECKLIST.md`](review/REVIEW_CHECKLIST.md) — the exact places most worth attacking.
-3. [`verification/verify_route_overlap.py`](verification/verify_route_overlap.py) — independent exact checker.
-4. [`review/LITERATURE_NOTES.md`](review/LITERATURE_NOTES.md) — closest prior art found so far.
+1. [`THEOREM.md`](THEOREM.md) — concise theorem statement and exact formulas.
+2. [`PROOF_STATUS.md`](PROOF_STATUS.md) — proof strategy, status, and known danger points.
+3. [`review/REVIEW_CHECKLIST.md`](review/REVIEW_CHECKLIST.md) — the exact places most worth attacking.
+4. [`verification/verify_route_overlap.py`](verification/verify_route_overlap.py) — independent exact checker.
+5. [`review/LITERATURE_NOTES.md`](review/LITERATURE_NOTES.md) — closest prior art found so far.
 
 If you find something wrong, please open an issue with the smallest counterexample, the precise proof step, or the prior reference.
 
@@ -160,8 +161,6 @@ If you find something wrong, please open an issue with the smallest counterexamp
 ├── PROOF_STATUS.md
 ├── CONTRIBUTING.md
 ├── requirements.txt
-├── paper/
-│   └── route_overlap_note.pdf
 ├── verification/
 │   ├── verify_route_overlap.py
 │   └── verification_n13.json
