@@ -3,6 +3,10 @@
 > **Status: candidate theorem; adversarial review wanted.**  
 > This repository documents an AI-led mathematical exploration that began with a joke-like prompt asking whether AI could genuinely discover something new.
 
+## Mathematician? Start here
+
+If you only have a minute, read **[REVIEW_IN_60_SECONDS.md](REVIEW_IN_60_SECONDS.md)**. It contains the exact claim, the narrow novelty position, and the proof step most worth attacking.
+
 ## How I ended up here
 
 I am **not a mathematician** and I did not start with a graph-theory problem.
